@@ -1,5 +1,5 @@
-<!-- ABOUT THE PROJECT -->
-## About The Project
+<!-- О проекте -->
+## О проекте
 
 
 Этот проект был создан с помощью gemini, да , бот норм работает можно делать всё с ним давать пропмт и тд
@@ -37,15 +37,15 @@ _Ниже предоставлены комманды для получения 
 
 1. Получите API Key at [AI-Studio](https://aistudio.google.com/app/apikey)
 2. Сколнируйте репозиторий
-   ```sh
+   ```console
    git clone https://github.com/AimRite2YT/gemini-telegram-bot.git
    ```
-3. Введи свой API ключ в `config.json`
-   ```js
+3. Введи свой API ключ в `config.py`
+   ```api_key
    GEMINI_API_KEY = 'ENTER YOUR API';
    ```
 4. Создайте бота через специального бота @BotFather скопируйте токен и вставьте его сюда:
-   ```telegram
+   ```telegram_token
    TELEGRAM_BOT_TOKEN = 'ENTER YOUR TOKEN'
    ```
 5. Запустите скрипт
